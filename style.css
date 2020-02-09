@@ -14,14 +14,14 @@ body {
 }
 .section h1 {
 	position: absolute;
-	left: 100px;
+	left: 50px;
 	font-size: 6rem;
 	align-items: flex-end;
 	z-index: 1;
 	opacity: 1;
 	color: #fff;
-	padding: 20px;
-	margin: 15px;
+	padding: 10px;
+	margin: 10px;
 }
 /*.video-container {
 	position:absolute;
@@ -50,27 +50,33 @@ header {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: gray;
 	opacity: 1;
 	z-index: 999;
 	width: 100%
 
 }
+
+#kphanlogo {
+	width: 150px;
+	margin-left: 50px;
+}
+
 .webpages {
 	color: #fff;
 	position: absolute;
 	top: 75px;
-	left: 200px;
+	left: 250px;
 	text-transform: uppercase;
 	letter-spacing: .16em
 }
 
 .webpageitem {
 	color: white;
-	margin: 0 20px;
+	margin: 0 50px;
 	text-decoration: none;
+	font-size: ;
 }
 
-#kphanlogo {
-	width: 150px;
+.webpageitem:hover {
+	color: red;
 }
