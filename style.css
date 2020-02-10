@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	font-family: Candara;
 }
 
 					/*Video background CSS*/
@@ -67,7 +68,8 @@ header {
 	top: 75px;
 	left: 250px;
 	text-transform: uppercase;
-	letter-spacing: .16em
+	letter-spacing: .16em;
+	font-size: 20px;
 }
 
 .webpageitem {
@@ -86,22 +88,21 @@ header {
 }
 
 				/*Scroll down*/
-.secondpage {
-	box-sizing: border-box;
-	padding: 10vh 20vw;
-}
-.secondpagecenter {
-	align-items: center;
-	}
-.textbox {
-	position: relative;
-	display: block;
-}
-#badtime {
-	max-width: 600px;
-	max-height: 600px;
+.box1 {
+	display:flex;
+	margin-top: 150px;
+	margin-left: 300px;
+	margin-bottom: 150px;
 }
 
-#summary {
-	font-size: 20px;
+.box1 img {
+	width: 400px;
+}
+
+.textbox1 {
+	width: 600px;
+	margin-top: 100px;
+	margin-left: 200px; 
+	font-size: 28px;
+	line-height: 2em;
 }
