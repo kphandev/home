@@ -23,6 +23,7 @@ body {
 	color: #fff;
 	padding: 10px;
 	margin: 10px;
+	margin-left: 150px;
 }
 /*.video-container {
 	position:absolute;
@@ -59,14 +60,14 @@ header {
 
 #kphanlogo {
 	width: 150px;
-	margin-left: 50px;
+	margin-left: 200px;
 }
 
 .webpages {
 	color: #fff;
 	position: absolute;
 	top: 75px;
-	left: 250px;
+	left: 400px;
 	text-transform: uppercase;
 	letter-spacing: .16em;
 	font-size: 20px;
@@ -81,6 +82,12 @@ header {
 
 .webpageitem:hover {
 	color: red;
+}
+#cart {
+	margin-top: -20px;
+	margin-left: 50px;
+	width: 50px;
+	float: right;
 }
 				/*Current Webpage*/
 #about {
@@ -101,7 +108,7 @@ header {
 
 .textbox1 {
 	width: 600px;
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-left: 200px; 
 	font-size: 28px;
 	line-height: 2em;
