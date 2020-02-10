@@ -39,7 +39,7 @@ body {
 	height: 100%;
 	opacity: .1;
 }
-/*Overhead display bar*/
+					/*Overhead display bar*/
 header {
 	display: block;
 	position: absolute;
@@ -78,5 +78,9 @@ header {
 }
 
 .webpageitem:hover {
+	color: red;
+}
+				/*Current Webpage*/
+#about {
 	color: red;
 }
