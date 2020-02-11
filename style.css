@@ -170,7 +170,7 @@ p strong {
 /*Resume*/
 h3 span {
 	float: right;
-	font-size: 1.1rem;
+	font-size: 1.05rem;
 }
 
 .experience {
@@ -181,12 +181,13 @@ h3 span {
 	background-color: #161616;
 	width: auto;
 	height: 15vh;
-	padding-left: 15vw;
+	padding-left: 12.5vw;
 	padding-top: .5%;
 	padding-bottom: 2.5%;
 	color: white;
 }
 .rescontent {
+	background-color: white;
 	display: flex;
 }
 .resbanner h1 {
@@ -201,8 +202,8 @@ h3 span {
 }
 .resdesc {
 	margin-top: 2%;
-	margin-left: 15vw;
-	font-size: 1.1rem;
+	margin-left: 12.5vw;
+	font-size: 1.3rem;
 	max-width: 40vw;
 }
 
@@ -210,8 +211,9 @@ h3 span {
 	margin-bottom: 1%;
 }
 .resdesc h3{
+	font-size: 1.5rem;
 	margin-top: 1%;
-		margin-bottom: 1%;
+	margin-bottom: 1%;
 }
 .resdesc h4{
 	margin-top: 1%;
@@ -221,15 +223,15 @@ h3 span {
 
 .skills {
 	padding-top: .5%;
-	padding-left: 4%;
-	padding-right: 4%;
+	padding-left: 2%;
+	padding-right: 2%;
 	width: 30vw;
 	display: inline-block;
 	background: lightgray;
-	margin-right: 15vw;
+	margin-right: 10vw;
 	margin-left: 5%;
 	float:right;
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 }
 
 .skills a:visited {
@@ -249,9 +251,14 @@ h3 span {
 	margin-bottom: 1%;
 }
 .skillslist {
+	font-size: 1.2rem;
 	padding-left: 0;
 }
+.skillslist h4 {
+	border-bottom: solid darkgray 2px;
+}
 .skillslist span {
+	font-size: 1.2rem;
 	float: right;
 }
 .skillslist p {
