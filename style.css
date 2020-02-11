@@ -71,7 +71,7 @@ header {
 }
 .webpages {
 	width: 44%;
-	margin-left: 15%;
+	margin-left: 13.9%;
 	margin-top: 5%;
 	color: #fff;
 	position: absolute;
@@ -103,6 +103,8 @@ header {
 
 				/*Current Webpage*/
 .about {
+	text-decoration: none;
+	text-transform: uppercase;
 	color: red;
 }
 
@@ -165,6 +167,96 @@ p strong {
 	display: flex;
 }
 
+/*Resume*/
+h3 span {
+	float: right;
+	font-size: 1rem;
+}
+
+.experience {
+	margin-top: 5%;
+}
+
+.resbanner {
+	background-color: #161616;
+	width: auto;
+	height: 15vh;
+	padding-left: 15vw;
+	padding-top: .5%;
+	padding-bottom: 2.5%;
+	color: white;
+}
+
+.rescontent {
+	display: flex;
+}
+.resbanner h1 {
+	margin-top: 1.6%;
+	margin-bottom: 0;
+	font-size: 3rem;
+}
+
+.resbanner h5 {
+	margin-top: 1%;
+	font-size: 1.5rem;
+}
+.resdesc {
+	margin-top: 2%;
+	margin-left: 15vw;
+	font-size: 1.1rem;
+	max-width: 40vw;
+}
+
+.resdesc h2{
+	margin-bottom: 1%;
+}
+.resdesc h3{
+	margin-top: 1%;
+		margin-bottom: 1%;
+}
+.resdesc h4{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+
+.skills {
+	padding-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 30vw;
+	display: inline-block;
+	background: lightgray;
+	margin-right: 15vw;
+	margin-left: 5%;
+	float:right;
+	font-size: 1.1rem;
+}
+
+.skills a:visited {
+	color: black;
+}
+
+.skills a:hover {
+	color: red;
+}
+
+.skills h2 {
+	border-bottom: red solid 4px;
+}
+.skills h4 {
+	margin-bottom: 1%;
+}
+.resdesc h2 {
+	border-bottom: lightgray solid 4px;
+}
+
+.bullet {
+	padding-left: 3%;
+}
+
+
+
 
 
 .abouttitle {
@@ -211,26 +303,32 @@ p strong {
 
 		/*Footer*/
 .foot {
-	padding: 5%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	padding-right: 5%;
+	padding-left: 5%;
 	color: white;
 	background: black;
 	align-items: center;
 }
 
 .footin {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 #footlogo {
 	font-size: 3vw;
-	margin-left: 32%;
+	margin-left: 27.5%;
 }
 .footerlinks {
-	padding-left: 22.5%;
+	padding-left: 17.5%;
 	font-size: 1.5vw;
 	width: auto;
 }
 
 .terms {
-	padding-left: 38%;
+	padding-left: 33.5%;
 	font-size: 1vw
 }
