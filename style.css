@@ -142,24 +142,46 @@ p strong {
 
 
 /*			Scroll down 2*/
-.content2 {
-	padding-top: 5%;
-	padding-bottom: 5%;
+#content2black {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: black;
+	color: white;
+}
+
+#content2white {
+	padding-top: 1%;
+	padding-bottom: 1%;
 	background-color: white;
-	padding-left: 10%;
-	padding-right: 10%;
+	color: black;
+}
+
+.content2 {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: white;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
 	display: flex;
+}
+
+
+
+.abouttitle {
+	width: 91%;
+	font-size: 2vw;
+	border-bottom: red solid 4px;
 }
 
 .picbox1 img {
 	border: 4px black solid;
-	width: 20vw;
+	width: 22vw;
 }
 
 .picbox1 p {
 	padding-left: 10px;
 	border-left: red solid 4px;
-	width: 20vw
+	width: 22vw
 }
 
 .picbox1 p strong {
@@ -172,8 +194,12 @@ p strong {
 	width: auto;
 	margin-bottom: 2.5%;
 }
+
+.storyunit {
+	margin-right: 8vw;
+}
 .lefty {
-	margin-right: 2.5%;
+	margin-right: ;
 	line-height: 1.2;
 	font-size: 1.2vw;
 }
@@ -196,7 +222,7 @@ p strong {
 
 #footlogo {
 	font-size: 3vw;
-	margin-left: 35%;
+	margin-left: 32%;
 }
 .footerlinks {
 	padding-left: 22.5%;
@@ -205,6 +231,6 @@ p strong {
 }
 
 .terms {
-	padding-left: 40%;
+	padding-left: 38%;
 	font-size: 1vw
 }
