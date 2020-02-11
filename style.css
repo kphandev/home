@@ -2,6 +2,9 @@ body {
 	margin: 0;
 	font-family: Candara;
 }
+video {
+	z-index: -1;
+}
 
 					/*Video background CSS*/
 .section {
@@ -37,6 +40,7 @@ body {
 	z-index: 1;
 }
 					/*Overhead display bar*/
+
 header {
 	display: block;
 	position: absolute;
@@ -54,9 +58,11 @@ header {
 }
 
 #kphanlogo {
+	top: 0;
 	width: 175px;
 	margin-left: 5%;
 	margin-top: 2.5%;
+	z-index: 3;
 }
 #cart {
 	width: 75px;
@@ -96,16 +102,20 @@ header {
 }
 
 				/*Current Webpage*/
-#about {
+.about {
 	color: red;
 }
+
+
+
+
 
 				/*Scroll down*/
 .content1 {
 	display: flex;
 	padding-top: 5%;
-	padding-bottom: 5%
-
+	padding-bottom: 5%;
+	background-color: white;
 }
 .pic1 {
 	margin-left: 20%;
@@ -127,4 +137,74 @@ p strong {
 #introhead {
 	border-bottom: 6px red solid;
 	padding-bottom: 20px;
+}
+
+
+
+/*			Scroll down 2*/
+.content2 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: white;
+	padding-left: 10%;
+	padding-right: 10%;
+	display: flex;
+}
+
+.picbox1 img {
+	border: 4px black solid;
+	width: 20vw;
+}
+
+.picbox1 p {
+	padding-left: 10px;
+	border-left: red solid 4px;
+	width: 20vw
+}
+
+.picbox1 p strong {
+	font-size: 2vw;
+	margin-right: 10px;
+}
+
+.storybox {
+	display:flex;
+	width: auto;
+	margin-bottom: 2.5%;
+}
+.lefty {
+	margin-right: 2.5%;
+	line-height: 1.2;
+	font-size: 1.2vw;
+}
+
+
+
+
+
+
+		/*Footer*/
+.foot {
+	padding: 5%;
+	color: white;
+	background: black;
+	align-items: center;
+}
+
+.footin {
+}
+
+#footlogo {
+	font-size: 3vw;
+	margin-left: 35%;
+}
+.footerlinks {
+	padding-left: 22.5%;
+	font-size: 1.5vw;
+	width: auto;
+}
+
+.terms {
+	padding-left: 40%;
+	font-size: 1vw
 }
