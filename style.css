@@ -170,7 +170,7 @@ p strong {
 /*Resume*/
 h3 span {
 	float: right;
-	font-size: 1rem;
+	font-size: 1.1rem;
 }
 
 .experience {
@@ -186,7 +186,6 @@ h3 span {
 	padding-bottom: 2.5%;
 	color: white;
 }
-
 .rescontent {
 	display: flex;
 }
@@ -236,17 +235,23 @@ h3 span {
 .skills a:visited {
 	color: black;
 }
-
 .skills a:hover {
 	color: red;
 }
-
+.skills p {
+	margin-top:1%;
+}
 .skills h2 {
 	border-bottom: red solid 4px;
 }
 .skills h4 {
 	margin-bottom: 1%;
 }
+
+.skillslist span {
+	float: right;
+}
+
 .resdesc h2 {
 	border-bottom: lightgray solid 4px;
 }
