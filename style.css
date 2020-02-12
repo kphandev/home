@@ -109,9 +109,6 @@ header {
 }
 
 
-
-
-
 				/*Scroll down*/
 .content1 {
 	display: flex;
@@ -141,33 +138,7 @@ p strong {
 	padding-bottom: 20px;
 }
 
-
-
-/*			Scroll down 2*/
-#content2black {
-	padding-top: 1%;
-	padding-bottom: 1%;
-	background-color: black;
-	color: white;
-}
-
-#content2white {
-	padding-top: 1%;
-	padding-bottom: 1%;
-	background-color: white;
-	color: black;
-}
-
-.content2 {
-	padding-top: 1%;
-	padding-bottom: 1%;
-	background-color: white;
-	padding-left: 7.5%;
-	padding-right: 7.5%;
-	display: flex;
-}
-
-/*Resume*/
+			/*Resume Page*/
 h3 span {
 	float: right;
 	font-size: 1.05rem;
@@ -274,13 +245,70 @@ h3 span {
 }
 
 
+/*Portfolio*/
+.portfoliosec h1 {
+	margin-right: 20vw;
+	margin-left: 20vw;
+	border-bottom: red 4px solid;
+	font-size: 3rem;
+}
+.portborder {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+	display:flex;
+}
+
+.portcontent span{
+	padding-left:5%;
+	padding-top: 5vh;
+	width: 40vw;
+	font-size: 1.2rem;
+}
+.portcontent {
+	display: flex;
+	padding-right: 10%;
+}
+.portcontent h2{
+	margin-top: 0;
+	height: auto;
+}
+
+.portcontent img {
+	width: 20vw;
+}
 
 
+/*About Page*/
 
 .abouttitle {
 	width: 91%;
 	font-size: 2vw;
 	border-bottom: red solid 4px;
+}
+
+#content2black {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: black;
+	color: white;
+}
+
+#content2white {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: white;
+	color: black;
+}
+
+.content2 {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: white;
+	padding-left: 7.5%;
+	padding-right: 7.5%;
+	display: flex;
 }
 
 .picbox1 img {
@@ -308,6 +336,8 @@ h3 span {
 .storyunit {
 	margin-right: 8vw;
 }
+
+
 .lefty {
 	margin-right: ;
 	line-height: 1.2;
@@ -344,4 +374,10 @@ h3 span {
 .terms {
 	padding-left: 33.5%;
 	font-size: 1vw
+}
+
+
+#note {
+	width: 30vw;
+	height: 10vh;
 }
