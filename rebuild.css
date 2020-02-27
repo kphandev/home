@@ -1,8 +1,27 @@
-body {
-	background-image: url();
+.bg-dark {
+
 }
 
 /*Videobackground:*/
+
+.background {
+	background-color: #121212;
+	color: white;
+	padding-bottom: 5%;
+}
+
+.height {
+	margin-top:20%;
+}
+
+#background {
+	background-color: #121212;
+}
+
+.aboutpic {
+	height: 60%;
+}
+
 header {
   position: relative;
   background-color: black;
@@ -28,7 +47,7 @@ header video {
 }
 
 header .container {
-	margin-top: 7.5%;
+margin-top: 4%;
   position: relative;
   z-index: 1;
 }
@@ -62,15 +81,10 @@ header .overlay {
 }
 
 
-
-
-
-
 /*Icon and Image sizes*/
 
 .icon-sm {
 	width: 80px;
-	height: 1%;
 }
 
 .icon-md {
@@ -125,9 +139,9 @@ header .overlay {
 #slide1 {
 	width: auto;
 	border: 1px gray solid;
-	background-color: #c0c0c0;
-	padding-top: 10%;
-	padding-bottom: 10%;
+	background-color: #333333;
+	padding: 10%;
+
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
@@ -182,4 +196,35 @@ h5 {
 .theme {
 	background-color: black;
 	color: white;
+}
+
+
+/*ABOUT PAGE*/
+
+.blockpic {
+	width: 92%;
+	border: 2px #333333 solid;
+}
+
+#series {
+	width: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+}
+#series_btm {
+	width: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.lefty {
+	margin-top: 2%;
+	padding: 2%;
+	border-left: red 4px solid;
+}
+.trilogy {
+	margin-top: 0%;
+	margin-bottom:5%;
+	color: white;
+	height: 10%;
 }
