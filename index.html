@@ -1,99 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Blog Page Rebuild</title>
+	<link rel="stylesheet" type="text/css" href="rebuild.css">
 
-    <title>KPhan Personal Site</title>
-</head>
-<!-- Background video + Title -->
-<body>
-	<section id = "background video">
-    <div class="section">
-        <h1 id = "aspiring"> Aspiring <br>
-        Developer. </h1>
-        	<div class = "video-container">
-        	<div class = "color-overlay"></div>
-            <video autoplay loop muted id = "video">
-                <source src="pics/triangles_Trim.mp4" type="video/mp4">
-            </video>
-            </div>
-        </div>
-    </section>
+	<link rel="stylesheet" type="text/css" 
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-<!-- Overhead display bar -->
-	<section id = "overhead">
-    <header class = "overlay">
-    	<div class = "centering">
-    		<div id = "logo" class = "sticky">
-    			<a  href = "https://kphanplan.github.io/home/"> <img id = "kphanlogo" src="pics/kphan.png"> </a>
-                <span class = "webpages"> 
-                <a class = "webpageitem1" href="https://kphanplan.github.io/home/about"> About 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/resume "> Resume 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/portfolio"> Portfolio 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/process"> Process 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/merch"> 
-                Merch 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/contact"> Contact 
-                </a>
-                </span>            
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/cart"> <img id = "cart" src="pics/cart.png"> 
-                </a>
-    		</div> 
+	<link rel="stylesheet" type="text/css" 
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    	</div>
-    </header>
-	</section>
+  
 
-<!--  Content pic + text -->
-    <section>
-        <div class = "content1">
-        <img id = "pic1" class = "pic1" src="pics/badtime.jpg">
-        <div id = "text">
+	<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 
-        <p id = "introhead"><strong>Welcome to my pages!</strong></p> <p>If you're looking for a high-potential software developer, you just found a great candidate. My name is Kevin Phan, otherwise known as KPhan.<br>It's tough to stand out in a sea of developers and even harder in resumes, so I designed a website to showcase my web development abilities as well as my workhistory and projects. </p>
-        </div>
-        </div>
-    </section>
-
-
-
-<footer>
-	<div id = "foot" class = "foot">
-		<div id = "footin" class = "footin">
-			<h1 id = "footlogo"> Learn, adapt, build, repeat.</h1>
-
-			<span class = "footerlinks">
-            <a class = "webpageitem1" href="https://kphanplan.github.io/home/about"> About 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/resume "> Resume 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/portfolio"> Portfolio 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/process"> Process 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/merch"> 
-            Merch 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/contact"> Contact 
-            </a>       
-        	</span>
-
-        	<div class = "terms">
-            <p> 2020 Kevin Phan. All rights reserved. Aspring Developer. 
-            </div>
-            </p>
-		</div>
-    
-        </div> 
-	</div>
-</footer>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	
+</head>
+<body>
+
+
+
+
+
+<!-- NAVIGATION BAR -->
+	<nav id = "navibar" class="navbar fixed-top 
+	navbar-default flex ">
+			<img id = "kphanimg" class = "icon-sm" 
+        src="https://github.com/kphanplan/rebuild/blob/master/kphan.JPG?raw=true">
+
+    <div id="headbar" class="container margin-sm">
+      <div class="navbar-header">
+     	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand icon-sm"> </a>
+        <a href="#" class="navbar-brand">  </a>
+      </div>
+
+      <!-- This is where you include the headsup bar -->
+
+      <div class="collapse navbar-collapse" id="bs-nav-demo">
+        <ul class="nav navbar-nav ">
+          <li class = "active">
+            <a id = "navbar-text-active" 
+            href="https://kphanplan.github.io/rebuild/">HOME</a></li>
+          <li><a id = "navbar-text" href="">ABOUT </a></li>
+          <li><a id = "navbar-text" href="">RESUME</a></li>
+          <li><a id = "navbar-text" href="">CONTACT</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+<header>
+  <div class="overlay"></div>
+  <video class = "mobile" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+  </video>
+  <div class="container h-100">
+    <div class="d-flex h-100 text-center align-items-center">
+      <div class="w-100 text-white">
+        <h1 class="display-3">Kevin Phan</h1>
+        <p class="lead mb-0">Aspiring Developer</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<!-- CONTENT  -->
+<div id = "homecontent" class = "container">
+	<div id = "slide1" class = "row">
+
+		<div class = "col-lg-6 col-md-6 col-sm-6">
+			<img class = "picmd" src="https://images.unsplash.com/photo-1581670706118-18e487e593d4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+		</div>
+
+		<div class = "col-lg-6 col-md-6 col-sm-6 ">
+			<h1> Welcome to my site! </h1>
+			If you're looking for a high-potential software developer, you just found a great candidate. My name is Kevin Phan, otherwise known as KPhan.<br><br> 
+			It's tough to stand out in a sea of developers and even harder in resumes, so I designed a website to showcase my web development abilities as well as my workhistory and projects. 
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div id = "footerbar" class="row theme">
+
+      <!-- Grid column -->
+      <div class = "col-md-2 col-sm-2">
+      </div>
+      <div class="col-md-4 mt-md-0 mt-3 col-sm-4">
+
+        <!-- Content -->
+        <h5 class="text-uppercase"> Comment 
+        </h5>
+        <p> I'm still working many of the functions of the site. I hope to keep this blog updated and finished soon. Thank you!</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 mb-md-0 mb-3 col-sm-4">
+
+        <!-- Links -->
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a id = "navbar-text-active" 
+            href="https://kphanplan.github.io/rebuild/">HOME</a>
+          </li>
+          <li>
+            <a id = "navbar-text" href="#!">ABOUT</a>
+          </li>
+          <li>
+            <a id = "navbar-text" href="#!">RESUME</a>
+          </li>
+          <li>
+            <a id = "navbar-text" href="#!">CONTACT</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class = "col-md-2 col-sm-2">
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div id ="copyright" class="footer-copyright text-center py-3">© 2020 Copyright: Kevin Phan
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
 
 </body>
