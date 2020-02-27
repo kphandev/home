@@ -1,180 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <title>KPhan About Page</title>
+	<title>Blog Page Rebuild</title>
+	<link rel="stylesheet" type="text/css" href="rebuild.css">
+	<link rel="stylesheet" type="text/css" 
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" 
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">	
 </head>
-<!-- Background video + Title -->
 <body>
-    <section id = "background video">
-    <div class="section">
-        <h1 id = "aspiring"> About </h1>
-            <div class = "video-container">
-            <div class = "color-overlay"></div>
-            <video autoplay loop muted id = "video">
-                <source src="pics/triangles_Trim.mp4" type="video/mp4">
-            </video>
-            </div>
-        </div>
-    </section>
 
-<!-- Overhead display bar -->
-    <section id = "overhead">
-    <header class = "overlay">
-        <div class = "centering">
-            <div id = "logo" class = "sticky">
-                <a  href = "https://kphanplan.github.io/home/"> <img id = "kphanlogo" src="pics/kphan.png"> </a>
-                <span class = "webpages"> 
-                <a class = "webpageitem1 about" href="https://kphanplan.github.io/home/about"> About 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/resume "> Resume 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/portfolio"> Portfolio 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/process"> Process 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/merch"> 
-                Merch 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/contact"> Contact 
-                </a>
-                </span>            
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/cart"> <img id = "cart" src="pics/cart.png"> 
-                </a>
-            </div> 
 
-        </div>
-    </header>
-    </section>
-<!-- 
-UNIVERSITY TRILOGY -->
 
-<body>
-    <section id = "picgrid">
-        <div class = "content2">
-            <div class = "picbox1">
-                <div>
-                    <h1 class = "abouttitle"> THE UNIVERSITY TRILOGY </h1>
-                </div>
 
-            <div class = "storybox">
-                <div class = "storyunit">
-                <img src="https://github.com/kphanplan/home/blob/master/pics/hischool.JPG?raw=true">
 
-                <p class = "lefty"><strong>HIGH SCHOOL</strong> <br> High School, the awkward stage in life where we start to wonder 'who do I want to be'. I wanted to be an engineer. In fact, the highlights of my time in adolescent purgatory were spent in Engineering--building robots, trebuchets, and questionable pyrotechnics. </p>  
-                </div>
-                <div class = "storyunit">
-                <img src="https://github.com/kphanplan/home/blob/master/pics/univpt1.JPG?raw=true">
+<!-- NAVIGATION BAR -->
+<nav id = "navibar" class="navbar fixed-top 
+	navbar-default">
+	<div class = "flex container center right text-center align-items-center">
+	<img id = "kphanimg" class = "icon-sm" 
+    src="https://github.com/kphanplan/rebuild/blob/master/kphan.JPG?raw=true">
 
-                <p class = "lefty"><strong>UNIVERSITY CHP.  I</strong> <br> College, 'who do I want to be' part 2. I began college wanting to become an engineer but became fascinated by biological studies. My friends were doing it, the careers were hyped, it was all the rage! And so, I set off on my journey as a healthcare professional. </p> 
-                </div>
-                <div class = "storyunit">
-                <img src="https://github.com/kphanplan/home/blob/master/pics/univpt2.JPG?raw=true">
+    <div id="headbar" class="container margin-sm row justify-content-center">
+      <div class="navbar-header">
+     	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
 
-                <p class = "lefty"><strong>UNIVERSITY CHP. II</strong> <br> There was a stage in my college career where I balanced classes, worked 2 jobs, and volunteered. It was tough, I wanted to give up, but even through the struggle, it felt rewarding. This was a time where I really developed my work ethics, my philosophies, and marketability--I was ready for a 'real' job! 
-                </p> 
-                </div>
-            </div> 
-        </div>
+      <!-- This is where you include the headsup bar -->
+
+      <div class="collapse navbar-collapse " id="bs-nav-demo">
+        <ul class="nav navbar-nav ">
+          <li class = "active">
+            <a id = "navbar-text" 
+            href="https://kphanplan.github.io/home/">HOME</a>
+        </li>
+          <li>
+            <a id = "navbar-text-active" 
+            href="https://kphanplan.github.io/home/about">ABOUT </a>
+          </li>
+          <li>
+            <a id = "navbar-text" 
+            href="https://kphanplan.github.io/home/resume">RESUME</a>
+          </li>
+          <li>
+            <a id = "navbar-text" href="https://kphanplan.github.io/home/contact">CONTACT</a>
+          </li>
+        </ul>
+		</div> 
+      </div>
+</div>
+</nav>
+
+<!-- VIDEO -->
+
+
+
+<!-- CONTENT  -->
+<div class = "background">
+<div id = "homecontent" class = "container">
+  <div id = "slide1" class = "row">
+
+    <div class = "col-lg-6 col-md-8 col-sm-8 ">
+      <img class = "picmd" src="https://github.com/kphanplan/home/blob/master/pics/skyline.JPG?raw=true">
     </div>
-<!-- 
-THE JOB HUNT TRILOGY -->
 
-    <div id = "content2black" class = "content2">
-            <div class = "picbox1">
-                <div>
-                    <h1 class = "abouttitle"> THE JOB HUNT TRILOGY </h1>
-                </div>
-
-            <div class = "storybox">
-                <div class = "storyunit">
-                <img src="https://github.com/kphanplan/home/blob/master/pics/gradadvnt.JPG?raw=true">
-
-                <p class = "lefty"><strong>GRADUATION </strong> <br> Celebrate good times! My grueling trek through university had finally come to an end. I proceeded to use my final summer vacation as efficiently as possible: travelling, working part-time, and goofing off with friends. With my resume and experience, I'd get a job in no time...besides, how hard could it be? </p>  
-                </div>
-                <div class = "storyunit">
-                <img src="https://github.com/kphanplan/home/blob/master/pics/jobhunt1.JPG?raw=true">
-
-                <p class = "lefty"><strong>JOB HUNT CHP. I</strong> <br> Turns out, finding a job right out of college is difficult.
-                After hundreds of applications in healthcare, I was often left a few crumbs that led to nothing... 
-                I was competing against candidates with Master's degrees, I contemplated graduate school, maybe I could be a pro-gamer? That's when I learned to code...
-                </p> 
-                </div>
-                <div class = "storyunit">
-                <img src="https://github.com/kphanplan/home/blob/master/pics/jobhunt2.JPG?raw=true">
-
-                <p class = "lefty"><strong>JOB HUNT CHP. II</strong> <br> 
-                Coding became the new hotness for me. It is something I find myself enjoyably dumping hours into to. I took online courses, I attended a bootcamp--and I even got job offers! I started off studying QA automation but I knew I wanted to become developer.  
-                </p> 
-                </div>
-            </div> 
-        </div>
+    <div class = "col-lg-6 col-md-4 col-sm-4 ">
+      <h1> ABOUT ME: </h1>
+      I'm a young, aspiring software engineer. Most of my college career was focused on healthcare but I found drive and passion working in software and web development! The team-oriented work and problem solving aspect of the industry keeps me engaged and excited to tackle new problems with efficient and effective solutions! 
+      <br><br>
+      Below are a few humorous trilogies that follow the major events in life, from university to a projected ambitious future. I hope you enjoy!
     </div>
+  </div>
+</div>
+<h2 class = "trilogy text-center"> THE UNIVERSITY TRILOGY </h2>
+<!-- UNIVERSITY TRILOGY -->
+<div id = "series" class = "container m-1">
+
+  <div class = "col-lg-4 col-md-4 col-sm-12">
+
+   <img class = "blockpic" src="https://github.com/kphanplan/home/blob/master/pics/hischool.JPG?raw=true">
+
+    <p class = "lefty"><strong>HIGH SCHOOL</strong> <br> High School, the awkward stage in life where we start to wonder 'who do I want to be'. I wanted to be an engineer. In fact, the highlights of my time in adolescent purgatory were spent in Engineering--building robots, trebuchets, and questionable pyrotechnics. </p>
+    </div>
+
+
+    <div class = "col-lg-4 col-md-4 col-sm-12">
+    <img class = "blockpic" src="https://github.com/kphanplan/home/blob/master/pics/univpt1.JPG?raw=true">
+
+    <p class = "lefty"><strong>UNIVERSITY CHP.  I</strong> <br> College, 'who do I want to be' part 2. I began college wanting to become an engineer but became fascinated by biological studies. My friends were doing it, the careers were hyped, it was all the rage! And so, I set off on my journey as a healthcare professional. </p> 
+  </div>
+
+
+    <div class = "col-lg-4 col-md-4 col-sm-12">
+      <img class = "blockpic" src="https://github.com/kphanplan/home/blob/master/pics/univpt2.JPG?raw=true">
+
+      <p class = "lefty"><strong>UNIVERSITY CHP. II</strong> <br> There was a stage in my college career where I balanced classes, worked 2 jobs, and volunteered. It was tough, I wanted to give up, but even through the struggle, it felt rewarding. This was a time where I really developed my work ethics, my philosophies, and marketability--I was ready for a 'real' job! 
+      </p>
+  </div>
+</div>
+
+<!-- JOB HUNT TRILOGY -->
+
+<h2 class = "trilogy text-center"> THE JOB HUNT TRILOGY </h2>
+
+<div id = "series" class = "container m-1">
+
+  <div class = "col-lg-4 col-md-4 col-sm-12">
+    <img class = "blockpic" src="https://github.com/kphanplan/home/blob/master/pics/gradadvnt.JPG?raw=true">
+      <p class = "lefty"><strong>GRADUATION </strong> <br> Celebrate good times! My grueling trek through university had finally come to an end. I proceeded to use my final summer vacation as efficiently as possible: travelling, working part-time, and goofing off with friends. With my resume and experience, I'd get a job in no time...besides, how hard could it be? 
+      </p>  
+    </div>
+
+
+  <div class = "col-lg-4 col-md-4 col-sm-12">
+    <img class = blockpic src="https://github.com/kphanplan/home/blob/master/pics/jobhunt1.JPG?raw=true">
+    <p class = "lefty"><strong>JOB HUNT CHP. I</strong> <br> Turns out, finding a job right out of college is difficult.
+    After hundreds of applications in healthcare, I was often left a few crumbs that led to nothing... 
+    I was competing against candidates with Master's degrees, I contemplated graduate school, maybe I could be a pro-gamer? That's when I learned to code...
+    </p> 
+  </div>
+
+
+  <div class = "col-lg-4 col-md-4 col-sm-12">
+      <img class = "blockpic" src="https://github.com/kphanplan/home/blob/master/pics/jobhunt2.JPG?raw=true">
+
+      <p class = "lefty"><strong>JOB HUNT CHP. II</strong> <br> 
+      Coding became the new hotness for me. It is something I find myself enjoyably dumping hours into to. I took online courses, I attended a bootcamp--and I even got job offers! I started off studying QA automation but I knew I wanted to become developer.  
+      </p> 
+  </div>
+</div>
+
 
 <!-- THE DEVELOPER TRILOGY -->
- 
 
-        <div id = "content2white" class = "content2">
-            <div class = "picbox1">
-                <div>
-                    <h1 class = "abouttitle"> THE DEVELOPER TRILOGY </h1>
-                </div>
+<h2 class = "trilogy text-center"> THE DEVELOPER TRILOGY </h2>
 
-            <div class = "storybox">
-                <div class = "storyunit">
-                <img src="https://github.com/kphanplan/home/blob/master/pics/entry.JPG?raw=true">
+<div id = "series_btm" class = "container">
 
-                <p class = "lefty"><strong>THE ENTRY-LEVEL</strong> <br> After months of studying and refining my skills, I've finally landed my first developer job at: _______ inc. I'm excited to begin my journey as a developer and I'll carry the lessons I learn for the rest of my career... </p>  
-                </div>
-                <div class = "storyunit">
-                <img src="https://github.com/kphanplan/home/blob/master/pics/mid.JPG?raw=true">
+  <div class = "col-lg-4 col-md-4 col-sm-12">
+    <img class = "blockpic" src="https://github.com/kphanplan/home/blob/master/pics/entry.JPG?raw=true">
 
-                <p class = "lefty"><strong>THE MID-LEVEL</strong> <br> Years down the road, I'm a jaded programmer--I've seen it all! Crashed repositories, office drama, multi-language frameworks only a polyglot could decipher...I've learned everything from .NET to Python and beyond... </p> 
-                </div>
-                <div class = "storyunit">
-                <img src="https://github.com/kphanplan/home/blob/master/pics/senior.JPG?raw=true">
+    <p class = "lefty"><strong>THE ENTRY-LEVEL</strong> <br> After months of studying and refining my skills, I've finally landed my first developer job at: _______ inc. I'm excited to begin my journey as a developer and I'll carry the lessons I learn for the rest of my career... </p>
+  </div>
 
-                <p class = "lefty"><strong>THE SENIOR LEVEL</strong> <br> It's been decades since I've first become a developer. It's the year 2050 and I'm the greatest developer to ever exist. I never would've gotten here if it weren't for ______ Inc.! Wow! 
-                </p> 
-                </div>
-            </div> 
-        </div>
+
+  <div class = "col-lg-4 col-md-4 col-sm-12">
+    <img class = "blockpic" src="https://github.com/kphanplan/home/blob/master/pics/mid.JPG?raw=true">
+
+    <p class = "lefty"><strong>THE MID-LEVEL</strong> <br> Years down the road, I'm a jaded programmer--I've seen it all! Crashed repositories, office drama, multi-language frameworks only a polyglot could decipher...I've learned everything from .NET to Python and beyond... </p>
+  </div>
+
+
+  <div class = "col-lg-4 col-md-4 col-sm-12">
+    <img class = "blockpic" src="https://github.com/kphanplan/home/blob/master/pics/senior.JPG?raw=true">
+
+    <p class = "lefty"><strong>THE SENIOR LEVEL</strong> <br> It's been decades since I've first become a developer. It's the year 2050 and I'm the greatest developer to ever exist. I never would've gotten here if it weren't for ______ Inc.! Wow! 
+    </p> 
+  </div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+  <div class="container-fluid text-center text-md-left">
+    <div id = "footerbar" class="row theme">
+      <div class = "col-md-2 col-sm-2">
+      </div>
+      <div class="col-md-4 mt-md-0 mt-3 col-sm-4">
+        <h5 class="text-uppercase"> Comment 
+        </h5>
+        <p> I'm still working many of the functions of the site. I hope to keep this blog updated and finished soon. Thank you!</p>
+      </div>
+
+      <div class="col-md-4 mb-md-0 mb-3 col-sm-4">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a id = "navbar-text" 
+            href="https://kphanplan.github.io/rebuild/">HOME</a>
+          </li>
+          <li>
+            <a id = "navbar-text-active" href="#!">ABOUT</a>
+          </li>
+          <li>
+            <a id = "navbar-text" href="#!">RESUME</a>
+          </li>
+          <li>
+            <a id = "navbar-text" href="#!">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      <div class = "col-md-2 col-sm-2">
+      </div>
     </div>
-    </section>
+  </div>
+  <div id ="copyright" class="footer-copyright text-center py-3">© 2020 Copyright: Kevin Phan
+  </div>
 
-
-<footer>
-    <div id = "foot" class = "foot">
-        <div id = "footin" class = "footin">
-            <h1 id = "footlogo"> Learn, adapt, build, repeat.</h1>
-
-            <span class = "footerlinks">
-            <a class = "about" class = "webpageitem1" href="https://kphanplan.github.io/home/about"> About 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/resume "> Resume 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/portfolio"> Portfolio 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/process"> Process 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/merch"> 
-            Merch 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/contact"> Contact 
-            </a>       
-            </span>
-
-            <div class = "terms">
-            <p> 2020 Kevin Phan. All rights reserved. Aspring Developer. 
-            </div>
-            </p>
-        </div>
-    
-        </div> 
-    </div>
 </footer>
-    
+<!-- Footer -->
 </body>
 </html>
