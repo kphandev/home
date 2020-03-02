@@ -1,65 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-
-    <title>KPhan Contact Me</title>
+	<title>Blog Page Rebuild</title>
+	<link rel="stylesheet" type="text/css" href="rebuild.css">
+	<link rel="stylesheet" type="text/css" 
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" 
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">	
 </head>
-<!-- Background video + Title -->
 <body>
-	<section id = "background video">
-    <div class="section">
-        <h1 id = "aspiring"> Contact me! <br>
-        </h1>
-        	<div class = "video-container">
-        	<div class = "color-overlay"></div>
-            <video autoplay loop muted id = "video">
-                <source src="pics/triangles_Trim.mp4" type="video/mp4">
-            </video>
-            </div>
-        </div>
-    </section>
 
-<!-- Overhead display bar -->
-	<section id = "overhead">
-    <header class = "overlay">
-    	<div class = "centering">
-    		<div id = "logo" class = "sticky">
-    			<a  href = "https://kphanplan.github.io/home/"> <img id = "kphanlogo" src="pics/kphan.png"> </a>
-                <span class = "webpages"> 
-                <a class = "webpageitem1" href="https://kphanplan.github.io/home/about"> About 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/resume "> Resume 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/portfolio"> Portfolio 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/process"> Process 
-                </a>
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/merch"> 
-                Merch 
-                </a>
-                <a class = "webpageitem about" href="https://kphanplan.github.io/home/contact"> Contact 
-                </a>
-                </span>            
-                <a class = "webpageitem" href="https://kphanplan.github.io/home/cart"> <img id = "cart" src="pics/cart.png"> 
-                </a>
-    		</div> 
 
-    	</div>
-    </header>
-	</section>
 
-<!--  Content pic + text -->
-<section class = "portfoliosec">
-     <h1> Contact me: </h1>
-       <div class ="portborder">
 
-        <div class = "portcontent">
-            <a href="https://kphanplan.github.io/home/"> <img src="pics/kphan.JPG?raw=true"> </a>
-            <span class = "porttext"> 
 
-                <h2> Contact info: </h2>
+<!-- NAVIGATION BAR -->
+<nav id = "navibar" class="navbar fixed-top 
+	navbar-default">
+	<div class = "flex container center right text-center align-items-center">
+	<img id = "kphanimg" class = "icon-sm" 
+    src="https://github.com/kphanplan/rebuild/blob/master/kphan.JPG?raw=true">
+
+    <div id="headbar" class="container margin-sm row justify-content-center">
+      <div class="navbar-header">
+     	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- This is where you include the headsup bar -->
+
+      <div class="collapse navbar-collapse " id="bs-nav-demo">
+        <ul class="nav navbar-nav ">
+          <li class = "active">
+            <a id = "navbar-text" 
+            href="https://kphanplan.github.io/home/">HOME</a>
+        </li>
+          <li>
+            <a id = "navbar-text" 
+            href="https://kphanplan.github.io/home/about">ABOUT </a>
+          </li>
+          <li>
+            <a id = "navbar-text" 
+            href="https://kphanplan.github.io/home/resume">RESUME</a>
+          </li>
+          <li>
+            <a id = "navbar-text-active" href="https://kphanplan.github.io/home/contact">CONTACT</a>
+          </li>
+        </ul>
+		</div> 
+      </div>
+</div>
+</nav>
+
+<!-- VIDEO -->
+
+
+
+<!-- CONTENT  -->
+<div class = "background">
+<div id = "homecontent" class = "container">
+  <div id = "slide1" class = "row">
+
+    <div class = "col-lg-6 col-md-6 col-sm-6 ">
+      <img class = "contactpic" src="https://github.com/kphanplan/rebuild/blob/master/kphan.JPG?raw=true">
+    </div>
+
+    <div class = "col-lg-6 col-md-6 col-sm-6">
+<h2> Contact info: </h2>
 
                 <p> Phone: (614)-330-7079</p>
                 <p> E-mail: thekphantastic@gmail.com
@@ -68,53 +79,55 @@
                 <h2> Leave me a comment! (tbd) </h2>
                 <label for = "firstname"> First Name: </label>
                 <input type="text" name="firstname" placeholder="K">
+                <br>
                 <label for = "firstname"> Last Name: </label>
                 <input type="text" name="laststname" placeholder="Phan">
                 <br>
                 <label for = "comment"> Comment: </label>
                 <input id = "comment" type="text" name="note" placeholder="Wow! Amazing!">
+    </div>
+  </div>
+</div>
 
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
 
-            </span>
+  <div class="container-fluid text-center text-md-left">
+    <div id = "footerbar" class="row theme">
+      <div class = "col-md-2 col-sm-2">
+      </div>
+      <div class="col-md-4 mt-md-0 mt-3 col-sm-4">
+        <h5 class="text-uppercase"> Comment 
+        </h5>
+        <p> I'm still working many of the functions of the site. I hope to keep this blog updated and finished soon. Thank you!</p>
+      </div>
 
-        </div>
-       </div>
-    </section>
+      <div class="col-md-4 mb-md-0 mb-3 col-sm-4">
+        <h5 class="text-uppercase">Links</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a id = "navbar-text" 
+            href="https://kphanplan.github.io/rebuild/">HOME</a>
+          </li>
+          <li>
+            <a id = "navbar-text" href="#!">ABOUT</a>
+          </li>
+          <li>
+            <a id = "navbar-text" href="#!">RESUME</a>
+          </li>
+          <li>
+            <a id = "navbar-text-active" href="#!">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      <div class = "col-md-2 col-sm-2">
+      </div>
+    </div>
+  </div>
+  <div id ="copyright" class="footer-copyright text-center py-3">© 2020 Copyright: Kevin Phan
+  </div>
 
-
-
-<footer>
-	<div id = "foot" class = "foot">
-		<div id = "footin" class = "footin">
-			<h1 id = "footlogo"> Learn, adapt, build, repeat.</h1>
-
-			<span class = "footerlinks">
-            <a class = "webpageitem1" href="https://kphanplan.github.io/home/about"> About 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/resume "> Resume 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/portfolio"> Portfolio 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/process"> Process 
-            </a>
-            <a class = "webpageitem" href="https://kphanplan.github.io/home/merch"> 
-            Merch 
-            </a>
-            <a class = "webpageitem about" href="https://kphanplan.github.io/home/contact"> Contact 
-            </a>       
-        	</span>
-
-        	<div class = "terms">
-            <p> 2020 Kevin Phan. All rights reserved. Aspring Developer. 
-            </div>
-            </p>
-		</div>
-    
-        </div> 
-	</div>
 </footer>
-	
-
-
+<!-- Footer -->
 </body>
 </html>

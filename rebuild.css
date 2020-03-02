@@ -188,6 +188,10 @@ header .overlay {
 	color: white;
 }
 
+.contactpic{
+	width: 75%;
+}
+
 /*ABOUT PAGE*/
 
 .blockpic {
@@ -220,7 +224,6 @@ header .overlay {
 
 /*RESUME*/
 h3 span {
-
 	font-size: 1.05rem;
 }
 
