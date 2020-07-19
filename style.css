@@ -10,8 +10,8 @@
 
 /*BACKGROUND VIDEO*/
 
-#vidoeBG {
-
+#videoBG {
+	opacity: 90%;
 	z-index: -10;
 }
 
@@ -158,7 +158,6 @@ a.active, a:hover {
 .container {
 margin-top: 75px;
   position: relative;
-
   color: white;
 }
 
