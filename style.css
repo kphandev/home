@@ -11,6 +11,7 @@
 /*BACKGROUND VIDEO*/
 
 #videoBG {
+	width: 100%;
 	opacity: 90%;
 	z-index: -10;
 }
@@ -19,7 +20,6 @@
 	#videoBG {
 		width:100%;
 		height:auto;
-
 	}
 }
 @media (max-aspect-ratio: 16/9) {
@@ -79,7 +79,7 @@ nav ul{
 	float:right;
 	margin-left: 20px;
 	margin-bottom:0px;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 nav ul li {
@@ -104,7 +104,7 @@ li a:hover {
 
 a.active, a:hover {
 	text-decoration: none;
-	background: #1b9bff;
+	background: #0082e6;
 	transition: 0.45s;
 }
 
@@ -131,12 +131,11 @@ a.active, a:hover {
 
 	}
 	nav ul li a {
-		font-size: 2rem;	
+		font-size: 1.4rem;	
 	}
 	a:hover, a:active{
 		background:none;
 		color: #0082e6;	
-
 	}
 
 	#hamburgerIcon:hover{
@@ -149,11 +148,12 @@ a.active, a:hover {
 	#check:checked ~ul {
 		right:0;		
 	}
-
 }
 
 
 /*CONTENT*/
+
+
 
 .container {
 margin-top: 75px;
@@ -168,4 +168,17 @@ margin-top: 75px;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+}
+.black {
+	color: black;
+}
+
+#smaller {
+	width: 100%;
+}
+
+.desc {
+	padding: 5%;
+	font-size: 1.2rem;
+	line-height: 2.0rem;
 }
