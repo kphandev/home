@@ -204,6 +204,10 @@ margin-top: 75px;
 .right {
 	text-align: right;
 }
+.bottom {
+	width: 50%;
+	margin-top: 5%;
+}
 
 .banner {
 	border-radius: 5px;
