@@ -183,6 +183,10 @@ margin-top: 75px;
 	width: 100%;
 }
 
+#small_square {
+	width: 50%;
+}
+
 .desc {
 	font-size: 1.2rem;
 	line-height: 1.8rem;
