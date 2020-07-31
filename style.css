@@ -184,7 +184,9 @@ margin-top: 75px;
 }
 
 #small_square {
-	width: 50%;
+	width: 70%;
+	border-style: solid;
+	border-color: black;
 }
 
 .desc {
