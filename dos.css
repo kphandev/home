@@ -7,7 +7,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-image: url("pics/backsplash.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -61,6 +61,16 @@ header.masthead .masthead-heading {
   font-size: 20px;
   color: rgb(50, 50, 50);
 }
+.sectionBanner {
+  letter-spacing: 6px;
+  margin-bottom: 2.5%;
+}
+
+.thanks {
+  border-radius: 15px;
+  background-color: rgba(50, 50, 50, 0.9);
+  font-size: 1.5rem;
+}
 
 #section2 {
   background: whitesmoke;
@@ -69,6 +79,18 @@ header.masthead .masthead-heading {
 #section3 {
   background: lightsteelblue;
   font-family: "Montserrat", sans-serif;
+}
+#section4{
+  color: white;
+  padding-top:15%;
+  padding-left:10%;
+  padding-bottom:15%;
+  height: 20%;
+  background-image: url("pics/thanks.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 
 img {
@@ -80,6 +102,14 @@ img {
 img:hover {
   opacity: 0.5;
   transition: 0.1s;
+}
+
+.fa-github {
+  margin: 30px;
+}
+
+.fa-linkedin {
+  margin: 30px;
 }
 
 @media (min-width: 768px) {
