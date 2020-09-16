@@ -1,82 +1,570 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>KPhan Personal Page</title>
+<html lang="en">
+  <head>
+    <title>&#9971 Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    <script
+      src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="dos.css" />
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"
+          >KEVIN PHAN</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          MENU
+          <i class="fas fa-bars ml-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#section1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#section2">Skills</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#section3">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#section4">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="section1">
+      <header class="masthead">
+        <div class="container">
+          <div class="masthead-heading text-uppercase">Kevin Phan</div>
+          <div class="masthead-subheading">-Full Stack Developer-</div>
+          <a
+            class="btn btn-warning btn-xl text-uppercase js-scroll-trigger"
+            href="#section2"
+            >Tell Me More</a
+          >
+        </div>
+      </header>
+    </div>
+    <!-- SKILLS -->
+    <div
+      id="section2"
+      class="container-fluid"
+      style="padding-top: 70px; padding-bottom: 70px"
+    >
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">SKILLS</div>
+      </div>
+      <div class = "container">
+      <div class="row text-center">
+      <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-warning"></i>
+              <i class="fas fa-flask fa-stack-1x fa-inverse"></i>
+            </span>
+            <h2 class="my-3">RESEARCHER</h2>
+            <p class="text-muted">
+              Years of experience in the research field have honed my investigative, diagnostic, and problem-solving skills which have carried over to my software development career.
+            </p>
+            <p>
+              "Research is creating new knowledge"
+              <br> -Neil Armstrong-
+            </p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-danger"></i>
+              <i class="fas fa-laptop-code fa-stack-1x fa-inverse"></i>
+            </span>
+            <h2 class="my-3">FULL STACK DEVELOPER</h2>
 
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" 
+            <p class="text-muted">
+              In a field that is always updating, my motivation and excitement fuel my growth and learning. From front-end to back-end, my skills are expanding at an exponential rate with each new project and framework. 
+            </p>            
+            <p>
+              "Make it work, make it right, make it fast"<br>-Kent Beck-
+            </p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-warning"></i>
+              <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+            </span>
+            <h2 class="my-3">TEAM PLAYER</h2>
+            <p class="text-muted">
+              Working in a lab, hospital, and volunteer environment has taught me how to adapt to any team, capitalize its strengths, and to fill in its weaknesses. 
+            </p>            
+            <p>
+            <p>
+              "None of us is as smart as all of us"<br>-Ken Blanchard-
+            </p>
+          </div>
+      </div>
+    </div>
+    </div>
+    <div
+      id="section3"
+      class="container-fluid"
+      style="padding-top: 70px; padding-bottom: 70px"
+    >
+      <!-- PROJECTS -->
+      <!-- 1 -->
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center"><h2>PORTFOLIO</h2></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">Click the pictures to learn more</div>
+      </div>
 
-	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+      <!-- PROJECTS x 6 -->
+      <div class="row">
 
-	<link rel="stylesheet"
- 	 href="https://fonts.googleapis.com/css?family=Space+Mono">
+        <div class="col-lg-4 col-md-6 d-flex">
+          <div class="container port-box d-flex row align-items-end justify-content-center">
+            <div class = "link">
+            <img
+              class = "img-fluid"
+              style="width: 100%"
+              data-toggle="modal"
+              data-target="#myModal1"
+              src="pics/rgb.JPG"
+            />
+            </div>
+            <div class = "caption text-center">
+              <h2>Modal Example</h2>
+              <p>Description</p>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal1" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                    <h4 class="modal-title">GOOQJWDIOPDWQ</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>HELLO</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- 2 -->
 
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</head>
+        <div class="col-lg-4 col-md-6 d-flex">
+          <div class="container port-box d-flex row align-items-end justify-content-center">
+            <div class = "link">
+            <img
+              class = "img-fluid"
+              style="width: 100%"
+              data-toggle="modal"
+              data-target="#myModal2"
+              src="pics/generator.JPG"
+            />
+            </div>
+            <div class = "caption text-center">
+              <h2>Advice Generator</h2>
+              <p>React.js, Axios, REST API</p>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal2" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                    <h4 class="modal-title">Advice Generator</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>My introduction to React.js. This is a simple React application that pulls JSON from an API and displays it on the page.</p>
+                    <img src = "pics/generator.JPG">
+                    <ul>
+                      <li>Utilizes React.js</li>
+                      <li>Utilizes Axios to pull JSON from an API</li>
+                      <li><a href="https://compassionate-engelbart-c3c9fa.netlify.app/">>>LIVE VERSION HERE<<</a></li>
+                      <li><a href="https://github.com/kphanplan/react-advice-app">https://github.com/kphanplan/react-advice-app</a></li>
+                    </ul>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<body>
-			<nav class = "container">
-			<input type="checkbox" id ="check">
-			<label for="check" class = "checkbtn">
-				
-				<i class = "fas fa-bars" id = "hamburgerIcon"></i>
-			</label>
+        <!-- 3 -->
 
-			<label class = "logo"> KEVIN PHAN </label>
+        <div class="col-lg-4 col-md-6 d-flex">
+          <div class="container port-box d-flex row align-items-end justify-content-center">
+            <div class = "link">
+            <img
+              class = "img-fluid"
+              style="width: 100%"
+              data-toggle="modal"
+              data-target="#myModal3"
+              src="pics/venmo.JPG"
+            />
+            </div>
+            <div class = "caption text-center">
+              <h2>Digital Wallet</h2>
+              <p>Java, MVC, Springboot, REST API, PostgreSQL</p>
+            </div>
 
-			<ul>
-				<li><a class = "active" href = "https://kphanplan.github.io/home/"> ○ HOME</a></li>
-				<li><a href = "https://kphanplan.github.io/home/projects"> ○ PROJECTS </a></li>
-				<li><a href = "https://kphanplan.github.io/home/contact"> ○ CONTACT </a></li>	
-				<li>						
-					<a href = "https://www.linkedin.com/in/kev-phan/"> 
-						<i class="fab fa-linkedin" id = "linkedinmd">
-						</i> 
-					</a>
-					<a href = "https://github.com/kphanplan">
-						<i class="fab fa-github-square" id = "githubiconmd">
-						</i>  
-					</a>
-				</li>
-			</ul>		
-		</nav>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal3" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                    <h4 class="modal-title">Digital Wallet</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class = "container">
+                      <p>My Third Capstone at Tech Elevator! This application functions similarly to the popular digital wallet app "Venmo". It uses the MVC model, SpringBoot (Security, Web), Restful APIs, PostgreSQL, and Java!</p>
+                      <img src = "pics/venmo1.png">
+                      <ul>
+                        <li>Application uses User Authentication (Spring security)</li>
+                        <li>Users can send money to other users in the system</li>
+                      </ul>
+                      <img src = "pics/venmo2.png">
+                      <ul>
+                        <li>Application saves all transactions to PostgreSQL database</li>
+                        <li>Users can view all transactions between themselves and others</li>
+                        <li>Application displays the status of transactions and amounts</li>
+                      </ul>
+                      <img src = "pics/venmo3.png">
+                      <ul>
+                        <li>Users can approve or decline transaction requests</li>
+                        <li>Transactions will only occur if approved and funds are sufficient</li>
+                        <li><a href = "https://github.com/kphanplan/Digital-Wallet">https://github.com/kphanplan/Digital-Wallet</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<!-- CONTENT BELOW -->
+        <!-- 4 -->
+        <div class="col-lg-4 col-md-6 d-flex">
+          <div class="container port-box d-flex row align-items-end justify-content-center">
+            <div class = "link">
+            <img
+              class = "img-fluid"
+              style="width: 100%"
+              data-toggle="modal"
+              data-target="#myModal4"
+              src="pics/todo.JPG"
+            />
+            </div>
+            <div class = "caption text-center">
+              <h2>ToDo List</h2>
+              <p>JavaScript, JQuery</p>
+            </div>
 
-<div class = "container flex">
-	<video id="videoBG" poster="start.jpg" autoplay muted loop>
-		<source src="https://github.com/kphanplan/home/blob/master/pics/videoBG.mp4?raw=true" type="video/mp4">
-	</video>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal4" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                    <h4 class="modal-title">To Do List</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class = "container">
+                      <p>A Simple ToDo List application that helped me learn JQuery, DOM Manipulation, and JavaScript</p>
+                      <img src = "pics/todo.JPG">
+                      <ul>
+                        <li>Allows user to add new tasks</li>
+                        <li>Allows user to complete tasks</li>
+                        <li>Allows user to delete tasks</li>
+                        <li><a href= "https://upbeat-shockley-bcaa20.netlify.app/">>>LIVE VERION HERE<<</a></li>
+                        <li><a href= "https://github.com/kphanplan/ToDoList">https://github.com/kphanplan/ToDoList</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-	<div class = "centered">
-		<h3> Welcome to my Career Page</h3>
-	</div>
-</div>
+        <!-- 5 -->
+        <div class="col-lg-4 col-md-6 d-flex">
+          <div class="container port-box d-flex row align-items-end justify-content-center">
+            <div class = "link">
+            <img
+              class = "img-fluid"
+              style="width: 100%"
+              data-toggle="modal"
+              data-target="#myModal5"
+              src="pics/camping.JPG"
+            />
+            </div>
+            <div class = "caption text-center">
+              <h2>Campsite Reservation App</h2>
+              <p>Java, PostgreSQL, JDBC</p>
+            </div>
 
-<div class = "container flex black">
-	<div class = "row">
-		<div class = "col col-lg-6 ">
-			 <img id = "smaller" src="https://github.com/kphanplan/home/blob/master/pics/behind.jpg?raw=true">
-		</div>
-		<div class = "d-flex justify-content-center col col-md-6 desc box-center right">
-		 	<div>
-		 	<h2 id = "welcome"> -> W E L C O M E <- </h2>
-		 	<br>
-		 	If you're looking for a high-potential software developer, you just found a great candidate. <br>
-		 	Although most of my work experience is clinical, I am adopting IT skills for a career in software development. <br>
-		 	I am rigorously cultivating my skills through the midwest’s best coding bootcamp, <br>
-		 	<br>
-		 	<img class = "bottom" src="pics/techelevator.png">
-		 	</div>
-	</div>
-	</div>
-</div>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal5" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                    <h4 class="modal-title">Camp Site Capstone</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class = "container">
+                      <p>My Second capstone at Tech Elevator! This application was console-driven and utilizes Java, PostgreSQL, and JDBC</p>
+                      <img src = "pics/camp1.png">
+                      <ul>
+                        <li>Users select National park from database</li>
+                      </ul>
+                      <img src = "pics/camp2.png">
+                      <ul>
+                        <li>Users select a campground within the National Park</li>
+                        <li>Users specify reservation dates</li>
+                        <li>Application displays top 5 available campgrounds WITHOUT overlapping other reservations</li>
+                      </ul>
+                      <img src = "pics/camp3.png">
+                      <ul>
+                        <li>Users are given a confirmation ID and a subtotal</li>
+                        <li>Reservation is logged into the database</li>
+                        <li><a href = "https://github.com/kphanplan/capstone_campsite">https://github.com/kphanplan/capstone_campsite</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-<div class = "container">
-	
-</div>
+        <!-- 6 -->
+        <div class="col-lg-4 col-md-6 d-flex">
+          <div class="container port-box d-flex row align-items-end justify-content-center">
+            <div class = "link">
+            <img
+              class = "img-fluid"
+              style="width: 100%"
+              data-toggle="modal"
+              data-target="#myModal6"
+              src="pics/vendingmachine.JPG"
+            />
+            </div>
+            <div class = "caption text-center">
+              <h2>Vending Machine</h2>
+              <p>Java, Java Swing</p>
+            </div>
 
-</body>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal6" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                    <h4 class="modal-title">Vending Machine</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class = "container">
+                    <img src = "pics/vendingmachine.JPG">
+                    <p>My first mini-capstone at Tech Elevator! This program helped me establish the fundamentals of object oriented programming and file I/O.</p>
+                    <ul class = "features">
+                      <li>Tracks Money</li>
+                      <li>Distributes Change in quarters, dimes, nickels</li>
+                      <li>Snacks are dynamically displayed given input file</li>
+                      <li>Stylish (but outdated) UI with keypad</li>
+                      <li>Tracks Snack stock and user inventory</li>
+                      <li>
+                        <a href = "https://github.com/kphanplan/VendingMachineGUI">https://github.com/kphanplan/VendingMachineGUI</a>
+                      </li>
+                    </ul>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Next row--follow pattern every 6-->
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex">
+          <div class="container port-box d-flex row align-items-end justify-content-center">
+            <div class = "link">
+            <img
+              class = "img-fluid"
+              style="width: 100%"
+              data-toggle="modal"
+              data-target="#myModal7"
+              src="pics/BrickBlaster.JPG"
+            />
+            </div>
+            <div class = "caption text-center">
+              <h2>Brick Blaster Game</h2>
+              <p>Java, Java Swing</p>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal7" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                    <h4 class="modal-title">Brick Blaster game!</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class = "container">
+                    <img src = "pics/BrickBlaster.JPG">
+                    <p>My first side-project at Tech Elvator, a simple brick blaster game built using Java and Java Swing graphics.</p>
+                    <ul class = "features">
+                      <li>Score, Life, Level Trackers</li>
+                      <li>Proressive difficulty</li>
+                      <li>Missles!</li>
+                      <li>
+                        <a href = "https://github.com/kphanplan/BrickBlaster">https://github.com/kphanplan/BrickBlaster</a>
+                      </li>
+                    </ul>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-default"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- CONTACT ME -->
+    <div
+      id="section4"
+      class="container-fluid bg-danger"
+      style="padding-top: 70px; padding-bottom: 70px"
+    >
+      <div class="container">
+        <div class="d-flex row justify-content-center">CONTACT ME</div>
+        <div class="d-flex row justify-content-center">
+          <img
+            src="https://images.unsplash.com/photo-1554744512-d6c603f27c54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+          />
+        </div>
+        <div class="d-flex row justify-content-center">EMAIL</div>
+        <div class="d-flex row justify-content-center">PHONE</div>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="script.js"></script>
+  </body>
 </html>
