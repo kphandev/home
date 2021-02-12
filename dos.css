@@ -7,7 +7,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("pics/backsplash.jpg");
+  background-image: url('pics/backsplash.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -18,20 +18,19 @@ header.masthead .masthead-subheading {
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
-
 
 .icon {
   width: 50px;
@@ -57,7 +56,7 @@ header.masthead .masthead-heading {
   margin: 2.5%;
 }
 
-.caption p{
+.caption p {
   font-size: 20px;
   color: rgb(50, 50, 50);
 }
@@ -78,15 +77,15 @@ header.masthead .masthead-heading {
 
 #section3 {
   background: lightsteelblue;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
-#section4{
+#section4 {
   color: white;
-  padding-top:15%;
-  padding-left:10%;
-  padding-bottom:15%;
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-bottom: 15%;
   height: 20%;
-  background-image: url("pics/thanks.jpg");
+  background-image: url('pics/thanks.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -99,17 +98,21 @@ img {
   border-radius: 15px;
 }
 
-img:hover {
-  opacity: 0.5;
-  transition: 0.1s;
-}
-
 .fa-github {
   margin: 30px;
 }
 
 .fa-linkedin {
   margin: 30px;
+}
+
+.img-fluid {
+  cursor: pointer;
+}
+
+.img-fluid:hover {
+  opacity: 0.5;
+  transition: 0.1s;
 }
 
 @media (min-width: 768px) {
